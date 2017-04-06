@@ -32,13 +32,14 @@ python3 ./database.py
 Настройки хранятся в файле settings.py
 Перед первым запуском нужно настроить следующие параметры:
 
-- **TELEGRAM_CHAT_ID - **  ID или имя чата/канала Telegram, в который будут отправлятся фотографии
-- TELEGRAM_BOT_TOKEN  Токен телеграм бота, для доступа к API
-- FLICKR_API_KEY Ключ API Flickr 
-- FLICKR_API_SECRET Секретная фраза API Flickr
-- FLICKR_SEARCH_LICENSE_ID  ID Лицензии, для фильтрации поиска
-- FLICKR_SEARCH_TAGS  Тэги поиска
+- TELEGRAM_CHAT_ID - ID или имя чата/канала Telegram, в который будут отправлятся фотографии
+- TELEGRAM_BOT_TOKEN - Токен телеграм бота, для доступа к API
+- FLICKR_API_KEY Ключ - API Flickr 
+- FLICKR_API_SECRET - Секретная фраза API Flickr
+- FLICKR_SEARCH_LICENSE_ID - ID Лицензии, для фильтрации поиска
+- FLICKR_SEARCH_TAGS - Тэги поиска
 
 ## Запуск
-
-`python3 bot.py`
+```sh
+python3 bot.py
+```
