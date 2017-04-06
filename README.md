@@ -38,6 +38,12 @@ python3 ./database.py
 - FLICKR_API_SECRET - Секретная фраза API Flickr
 - FLICKR_SEARCH_LICENSE_ID - ID Лицензии, для фильтрации поиска
 - FLICKR_SEARCH_TAGS - Тэги поиска
+- FLICKR_SEARCH_TAGS_MODE - Режим поиска тегов
+- FLICKR_SEARCH_TEXT - Поиск упоминаний текста в данных фотографий
+- FLICKR_SEARCH_CONTENT_TYPE - Тип контента для поиска
+- FLICKR_SEARCH_SAFE - Настройки безопасного поиска (safe,moderate,restricted)
+- FLICKR_SEARCH_PRIVACY_FILTER - Ограничения приватности при поиске фотографий
+- FLICKR_SEARCH_SORT - Сортировка фотографий при поиске на Flickr
 
 ## Запуск
 ```sh
