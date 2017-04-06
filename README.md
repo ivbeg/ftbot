@@ -11,23 +11,33 @@
 
 ## Установка
 
-- Склонируйте репозиторий: `git clone https://github.com/xxx.git`
-- Установите зависимости: `pip3 install -r requirements`
-- Запустите установочный файл: `python3 database.py`
+1. Склонируйте репозиторий:
+```sh
+git clone https://github.com/ivbeg/ftbot.git ./ftbot
+```
+
+2. Установите зависимости:
+```sh
+cd ./ftbot
+pip3 install -r requirements
+```
+
+3. Запустите установочный файл, для создания sqlite базы данных
+```sh
+python3 ./database.py
+```
 
 ## Настройка
 
 Настройки хранятся в файле settings.py
 Перед первым запуском нужно настроить следующие параметры:
 
-- ** TELEGRAM_CHAT_ID ** - ID или имя чата/канала Telegram, в который будут отправлятся фотографии
-- ** TELEGRAM_BOT_TOKEN ** - Токен телеграм бота, для доступа к API
-
-- ** FLICKR_API_KEY ** - Ключ API Flickr 
-- ** FLICKR_API_SECRET ** - Секретная фраза API Flickr
-
-- ** FLICKR_SEARCH_LICENSE_ID ** - ID Лицензии, для фильтрации поиска
-- ** FLICKR_SEARCH_TAGS ** - Тэги поиска
+- **TELEGRAM_CHAT_ID - **  ID или имя чата/канала Telegram, в который будут отправлятся фотографии
+- TELEGRAM_BOT_TOKEN  Токен телеграм бота, для доступа к API
+- FLICKR_API_KEY Ключ API Flickr 
+- FLICKR_API_SECRET Секретная фраза API Flickr
+- FLICKR_SEARCH_LICENSE_ID  ID Лицензии, для фильтрации поиска
+- FLICKR_SEARCH_TAGS  Тэги поиска
 
 ## Запуск
 
