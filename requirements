@@ -1,0 +1,6 @@
+sqlalchemy
+telepot
+requests_toolbelt
+requests_oauthlib
+requests
+flickrapi
